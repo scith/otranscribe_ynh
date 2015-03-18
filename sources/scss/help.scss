@@ -1,0 +1,73 @@
+.help {
+        
+
+    @include page;
+
+    display: block;
+    
+    h1 {
+        font-size: 3em;
+        margin: 0.3em 0 0 0;
+    }
+    
+    p, ul, ol {
+        margin-top: 1em;
+    }
+    
+    h2, h3 {
+        margin-top: 1.4em;
+    }
+    
+    h2 {
+        font-size: 1.4em;
+        margin-top: 3em;
+    }
+    
+    strong, h2, h3 {
+        font-weight: bold;
+    }
+    
+    li {
+        list-style-type: disc;
+        margin-left: 2em;
+    }
+    
+    p, li {
+        line-height: 1.3em;
+    }
+    
+    .container {
+        width: 600px;
+    }
+    
+    a {
+        color: $accent;
+        &:visited {
+            color: darken($accent, 30%);
+        }
+    }
+    
+    #close-help {
+        color: $accent;
+        text-decoration: none;
+        font-size: 1em;
+        &:hover {
+            text-decoration: underline;
+        };
+    }
+
+
+}
+
+@media (max-width: 850px) {
+
+    .help {
+
+    padding: 0;    
+        .container {
+            width: auto;
+            padding: 5%;
+        }
+    }
+
+}

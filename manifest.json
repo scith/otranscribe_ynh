@@ -1,0 +1,42 @@
+{
+    "name": "oTranscribe",
+    "id": "otranscribe",
+    "description": {
+        "en": "oTranscribe is a free web app designed to take the pain out of transcribing recorded interviews.",
+        "fr": "oTranscribe est une application web pour transcrire des interviews en toute simplicité."
+    },
+    "developer": {
+        "name": "scith"
+    },
+    "multi_instance": "false",
+    "arguments": {
+        "install" : [
+            {
+                "name": "domain",
+                "ask": {
+                    "en": "Choose a domain for oTranscribe",
+                    "fr": "Choisissez un domaine pour oTranscribe"
+                },
+                "example": "domain.org"
+            },
+            {
+                "name": "path",
+                "ask": {
+                    "en": "Choose a path for oTranscribe",
+                    "fr": "Choisissez un chemin pour oTranscribe"
+                },
+                "example": "/otranscribe",
+                "default": "/otranscribe"
+            },
+            {
+                "name": "is_public",
+                "ask": {
+                    "en": "Is it a public oTranscribe? (note: oTranscribe does not store your data on your server but on local browser storage)",
+                    "fr": "Est-ce un TagSpaces public ? (note : oTranscribe ne stocke pas vos données sur votre serveur dans le stockage local du navigateur)"
+                },
+                "choices": ["Yes", "No"],
+                "default": "No"
+            }
+        ]
+    }
+}
