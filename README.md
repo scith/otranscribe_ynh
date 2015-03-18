@@ -1,5 +1,5 @@
 ## oTranscribe for YunoHost
-This YunoHost app is the self-hosted version of oTranscribe (information below).
+This YunoHost app is the self-hosted version of oTranscribe (information below). Sources updated: 18-03-2015
 
 **[oTranscribe](http://oTranscribe.com/)** is a free web app designed to take the pain out of transcribing recorded interviews.
 
